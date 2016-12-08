@@ -35,3 +35,10 @@ Caused by: java.util.zip.ZipException: error in opening zip file
         at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:148) ~[spigot-1.10.2.jar:git-Spigot-5705
         at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:76) ~[spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b
         ... 21 more
+
+
+Plugin: SuperHub
+Discovered On: 12/8/2016
+Fixed On: 
+Caused by: 
+Fix: 
