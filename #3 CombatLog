@@ -1,0 +1,37 @@
+ Could not load 'plugins/CombatLog.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:78) ~[spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b
+        at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[spigot-1.10.2.jar:git-Spigot-570526c-6af9f
+        at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f
+        at org.bukkit.craftbukkit.v1_10_R1.CraftServer.loadPlugins(CraftServer.java:298) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b
+        at org.bukkit.craftbukkit.v1_10_R1.CraftServer.reload(CraftServer.java:745) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at org.bukkit.Bukkit.reload(Bukkit.java:539) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at org.bukkit.craftbukkit.v1_10_R1.CraftServer.dispatchCommand(CraftServer.java:647) [spigot-1.10.2.jar:git-Spigot-570526c-6af
+        at net.minecraft.server.v1_10_R1.PlayerConnection.handleCommand(PlayerConnection.java:1358) [spigot-1.10.2.jar:git-Spigot-5705
+        at net.minecraft.server.v1_10_R1.PlayerConnection.a(PlayerConnection.java:1193) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at net.minecraft.server.v1_10_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at net.minecraft.server.v1_10_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at net.minecraft.server.v1_10_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_111]
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_111]
+        at net.minecraft.server.v1_10_R1.SystemUtils.a(SourceFile:45) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at net.minecraft.server.v1_10_R1.MinecraftServer.D(MinecraftServer.java:732) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at net.minecraft.server.v1_10_R1.DedicatedServer.D(DedicatedServer.java:400) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:668) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:567) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
+        at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+Caused by: org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+        at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:160) ~[spigot-1.10.2.jar:git-Spigot-5705
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:76) ~[spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b
+        ... 21 more
+Caused by: java.util.zip.ZipException: error in opening zip file
+        at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_111]
+        at java.util.zip.ZipFile.<init>(ZipFile.java:219) ~[?:1.8.0_111]
+        at java.util.zip.ZipFile.<init>(ZipFile.java:149) ~[?:1.8.0_111]
+        at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_111]
+        at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_111]
+        at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:148) ~[spigot-1.10.2.jar:git-Spigot-5705
+        at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:76) ~[spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b
+        ... 21 more
