@@ -32,3 +32,10 @@ java.lang.NumberFormatException: multiple points
         at net.minecraft.server.v1_10_R1.MinecraftServer.C(MinecraftServer.java:668) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
         at net.minecraft.server.v1_10_R1.MinecraftServer.run(MinecraftServer.java:567) [spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
         at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+
+
+Plugin: PvPManager
+Discovered On: 12/8/2016
+Fixed On: 
+Caused by: 
+Fix: 
