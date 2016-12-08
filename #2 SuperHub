@@ -38,3 +38,10 @@ Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_8_R1.Packet
         at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:64) ~[spigot-1.10.2.jar:git-Spigot-570526c-6af9f5b]
         at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.10.2.jar:git-Spigot-570526c-6af9f5
         ... 21 more
+
+
+Plugin: SuperHub
+Discovered On: 12/8/2016
+Fixed On: 
+Caused by: 
+Fix: 
