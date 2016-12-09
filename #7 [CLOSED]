@@ -36,6 +36,6 @@ java.lang.NumberFormatException: multiple points
 
 Plugin: PvPManager
 Discovered On: 12/8/2016
-Fixed On: 
-Caused by: 
-Fix: 
+Resolved On: 12/8/2016
+Caused by: Unknown
+Resolved By: Removal of plugin
