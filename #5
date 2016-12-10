@@ -28,6 +28,5 @@ java.lang.NoClassDefFoundError: org/inventivetalent/packetlistener/PacketListene
 
 Plugin: NickNamer
 Discovered On: 12/8/2016
-Fixed On: 
-Caused by: 
-Fix: 
+Resolved On: 12/9/2016
+Resolved By: Installing PacketListenerAPI
