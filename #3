@@ -39,6 +39,6 @@ Caused by: java.util.zip.ZipException: error in opening zip file
 
 Plugin: SuperHub
 Discovered On: 12/8/2016
-Fixed On: 
-Caused by: 
-Fix: 
+Resolved On: 12/9/2016
+Caused By: Corrupted download
+Resolved By: Updating plugin
